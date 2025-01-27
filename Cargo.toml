@@ -63,3 +63,6 @@ try-clone = ["dep:try-clone"]
 [package.metadata.docs.rs]
 targets = ["x86_64-pc-windows-msvc", "i686-pc-windows-msvc"]
 features = ["doc-cfg"]
+
+[lints.rust]
+warnings = "allow"
